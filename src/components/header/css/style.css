@@ -1,0 +1,19 @@
+.bg1 {
+     background: red;
+}
+
+.header_area {
+     height: 100px;
+     border-bottom: 1px solid #ddd;
+     position: fixed;
+     width: 100%;
+}
+
+.logo_area {
+     width: 200px !important ;
+     background: red;
+}
+
+.bg_color1 {
+     background-color: aqua;
+}
