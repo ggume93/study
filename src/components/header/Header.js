@@ -35,18 +35,26 @@ function Header() {
                          </div>
                     </div>
                </div>
+               {/* pc여백 */}
+               <div className="he90 d-none d-lg-block"></div>
+
                {/* mobile영역 */}
                <div className="header_area_mobile d-block d-lg-none">
                     <div className="master_area d-flex flex-wrap">
-                         <div className="col-6 offset-3 text-center">
+                         <div className="col-3 pt-3">
+                              <img src={require("./images/ham_icon.png")} className="ham_icon" />
+                         </div>
+                         <div className="col-6 text-center">
                               <img src={require("./images/logo.png")} className="logo_size_mo" />
                          </div>
-                         <div className="col-3 text-end">asd</div>
                     </div>
                </div>
-
-               <div className="he90 d-none d-lg-block"></div>
+               {/* mobile 여백 */}
                <div className="he60 d-block d-lg-none"></div>
+
+               {/* mobile menu */}
+               <div className="mobile_menu_area move"></div>
+               <div className="mobile_menu_bg"></div>
           </>
      );
 }
