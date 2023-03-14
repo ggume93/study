@@ -1,37 +1,49 @@
-.bg1 {
-     background: red;
-}
-
 .header_area {
-     height: 100px;
-     border-bottom: 1px solid #ddd;
+     height: 90px;
+     background: #fff;
      position: fixed;
      width: 100%;
+     box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
 }
 
 .logo_area {
-     width: 200px !important ;
-     background: red;
+     width: 90px !important ;
+     padding-top: 15px;
 }
-.we_130 {
-     width: 130px !important;
+.logo_size {
+     width: 87px;
 }
-.bg_color1 {
-     background-color: aqua;
+.h_img_size {
+     width: 20px;
 }
-.bg_color2 {
-     background-color: red;
+.menu_right_area {
+     width: 300px !important ;
+     font-size: 16px;
+     padding-top: 30px;
+     text-align: right;
+     color: #999;
 }
-.over_h {
-     overflow: hidden;
+.menu_right_area a {
+     color: #999;
 }
-
-.mz50 {
-     margin: 0 -50px;
+.name_color {
+     color: #1564c0;
 }
-
-.prl50 {
-     padding: 0 50px;
+.mypage_bt {
+     color: #1564c0;
+     border: 1px solid #1564c0;
+     padding: 2px 10px;
+     background: #fff;
+}
+.menu_center_area {
+     padding-top: 30px;
+     font-size: 18px;
+}
+.he90 {
+     height: 90px;
+}
+.he60 {
+     height: 60px;
 }
 /*###################### 반응형 구간 ######################*/
 @media (max-width: 575.98px) {

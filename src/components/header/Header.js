@@ -3,22 +3,44 @@ import "./css/style.css";
 
 function Header() {
      return (
-          <div className="header_area">
-               <div className="master_area over_h">
-                    <div className="row g-0">
-                         <div className="we_130">dd</div>
-                         <div className="col bg_color1 p10">dd</div>
-                    </div>
-                    <div className="d-flex flex-wrap justify-content-between mz50">
-                         <div class="col-md-4 col-12  prl50">
-                              <div className="bg_color1 fs_20_30">Flex item1</div>
-                         </div>
-                         <div class="col-md-8 col-12  prl50">
-                              <div className="bg_color1 fs_20_30">Flex item1</div>
+          <>
+               {/* pc영역 */}
+               <div className="header_area d-none d-lg-block">
+                    <div className="master_area over_h">
+                         <div className="row g-0">
+                              <div className="logo_area">
+                                   <img src={require("./images/logo.png")} className="logo_size" />
+                              </div>
+                              <div className="col text-center menu_center_area">
+                                   <span className="ml15 mr15 class_text1" id="class_text1">
+                                        회사소개
+                                   </span>
+                                   <a href="" className="ml15 mr15">
+                                        담보대출
+                                   </a>
+                                   <a href="" className="ml15 mr15">
+                                        커뮤니티
+                                   </a>
+                                   <a href="" className="ml15 mr15">
+                                        제휴안내
+                                   </a>
+                              </div>
+                              <div className="menu_right_area">
+                                   <img src={require("./images/h_icon.png")} alt="이미지" className="h_img_size mr15" />
+                                   <span className="name_color ">홍길동</span>
+                                   <span className="mr15">님</span>
+                                   <input type="button" value="마이페이지" className="mypage_bt mr15" />
+                                   <a href="">로그아웃</a>
+                              </div>
                          </div>
                     </div>
                </div>
-          </div>
+               {/* mobile영역 */}
+               <div className="he60 d-block d-lg-none">asdasd</div>
+
+               <div className="he90 d-none d-lg-block"></div>
+               <div className="he60 d-block d-lg-none"></div>
+          </>
      );
 }
 
