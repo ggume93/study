@@ -5,16 +5,16 @@ function Header() {
      return (
           <>
                {/* pc영역 */}
-               <div className="header_area d-none d-lg-block">
+               <div className="header_area_pc d-none d-lg-block">
                     <div className="master_area over_h">
                          <div className="row g-0">
                               <div className="logo_area">
                                    <img src={require("./images/logo.png")} className="logo_size" />
                               </div>
                               <div className="col text-center menu_center_area">
-                                   <span className="ml15 mr15 class_text1" id="class_text1">
+                                   <a href="" className="ml15 mr15 class_text1" id="class_text1">
                                         회사소개
-                                   </span>
+                                   </a>
                                    <a href="" className="ml15 mr15">
                                         담보대출
                                    </a>
@@ -36,7 +36,14 @@ function Header() {
                     </div>
                </div>
                {/* mobile영역 */}
-               <div className="he60 d-block d-lg-none">asdasd</div>
+               <div className="header_area_mobile d-block d-lg-none">
+                    <div className="master_area d-flex flex-wrap">
+                         <div className="col-6 offset-3 text-center">
+                              <img src={require("./images/logo.png")} className="logo_size_mo" />
+                         </div>
+                         <div className="col-3 text-end">asd</div>
+                    </div>
+               </div>
 
                <div className="he90 d-none d-lg-block"></div>
                <div className="he60 d-block d-lg-none"></div>

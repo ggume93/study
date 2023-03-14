@@ -1,5 +1,13 @@
-.header_area {
+.header_area_pc {
      height: 90px;
+     background: #fff;
+     position: fixed;
+     width: 100%;
+     box-shadow: rgb(0 0 0 / 10%) 0px 4px 12px;
+}
+
+.header_area_mobile {
+     height: 60px;
      background: #fff;
      position: fixed;
      width: 100%;
@@ -12,6 +20,10 @@
 }
 .logo_size {
      width: 87px;
+}
+.logo_size_mo {
+     width: 70px;
+     margin-top: 7px;
 }
 .h_img_size {
      width: 20px;
